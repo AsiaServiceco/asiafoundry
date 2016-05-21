@@ -266,7 +266,7 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
   padding-right: 10px;
 }
 .ajax-progress .throbber {
-  background: transparent url("https://asiaservicefoundry.googlecode.com/svn/image/loading.gif") no-repeat center; 
+  background: transparent url("image/loading.gif") no-repeat center; 
 }
 .single .page,
 .date .page,
@@ -674,13 +674,13 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
   background: rgba(255,255,255,.3);
 }
 .services-divs .icon-container.green-bg {
-  background:url(https://asiaservicefoundry.googlecode.com/svn/image/icogreen.png) #19D12F;
+  background:url(image/icogreen.png) #19D12F;
 }  
 .services-divs .icon-container.pink-bg {
-  background:url(https://asiaservicefoundry.googlecode.com/svn/image/icopink.png) #E01B5D;
+  background:url(image/icopink.png) #E01B5D;
 }   
 .services-divs .icon-container.orange-bg {
-  background: url(https://asiaservicefoundry.googlecode.com/svn/image/icoorange.png) #FCA325;
+  background: url(image/icoorange.png) #FCA325;
 }  
 
 /*-------------- Contact Page ----------------------*/
