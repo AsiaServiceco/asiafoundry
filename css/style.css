@@ -266,7 +266,7 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
   padding-right: 10px;
 }
 .ajax-progress .throbber {
-  background: transparent url("image/loading.gif") no-repeat center; 
+  background: transparent url("../image/loading.gif") no-repeat center; 
 }
 .single .page,
 .date .page,
@@ -397,7 +397,7 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
   padding: 40px 0 20px 35px;
 } 
 .meny .remove {
-  background: no-repeat url(../images/close.gif);
+  background: no-repeat url('../images/close.gif');
   padding: 0 11px;
 }    
 .meny .menu-list {
@@ -436,7 +436,7 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
   right: 0;
   margin: 1px;
   width: 36px;
-  background: #4718B6 url(../images/search.png) no-repeat 4px 5px;
+  background: #4718B6 url('../images/search.png') no-repeat 4px 5px;
   text-indent: -9999%;
   border: 0;
   box-shadow: 0 0 0;
@@ -674,13 +674,13 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
   background: rgba(255,255,255,.3);
 }
 .services-divs .icon-container.green-bg {
-  background:url(image/icogreen.png) #19D12F;
+  background:url('../image/icogreen.png') #19D12F;
 }  
 .services-divs .icon-container.pink-bg {
-  background:url(image/icopink.png) #E01B5D;
+  background:url('../image/icopink.png') #E01B5D;
 }   
 .services-divs .icon-container.orange-bg {
-  background: url(image/icoorange.png) #FCA325;
+  background: url('../image/icoorange.png') #FCA325;
 }  
 
 /*-------------- Contact Page ----------------------*/
