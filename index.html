@@ -669,3 +669,35 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
   ga('send', 'pageview');
 
 </script>
+	<!--- botika webchat begin -->
+<link rel="stylesheet" type="text/css" href="https://webchat.botika.online/widget/css/style.css"> 
+<script>
+	function loadScript(url, callback){
+
+		var script = document.createElement("script")
+		script.type = "text/javascript";
+
+		if (script.readyState){  //IE
+			script.onreadystatechange = function(){
+				if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+					script.onreadystatechange = null;
+					callback();
+				}
+			};
+		} else {  //Others
+			script.onload = function(){
+				callback();
+			};
+		}
+
+		script.src = url;
+		document.getElementsByTagName("head")[0].appendChild(script);
+	}
+
+	loadScript("https://webchat.botika.online/widget/js/botika.widget.js", function(){
+		//initialization code
+		createWidget({client:"dPpmfPhmGmiRL24tE"});
+	});
+</script>
+<!--- botika webchat end -->
